@@ -1,5 +1,6 @@
 package net.breadcraftsvids.firstmod;
 
+import net.breadcraftsvids.firstmod.item.Moditems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,6 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		Moditems.registerModItems();
 	}
 }
