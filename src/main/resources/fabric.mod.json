@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "${version}",
+	"name": "firstmod",
+	"description": "This is my first mod! i dont know what the frick im doing pls send help",
+	"authors": [
+		"BreadCraftsVids"
+	],
+	"contact": {
+		"homepage": "https://breadcraftsvids.net/",
+		"sources": "https://github.com/Tutorials-By-Kaupenjoe/Fabric-Tutorial-1.21.X"
+	},
+	"license": "MIT",
+	"icon": "assets/firstmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.breadcraftsvids.firstmod.FirstMod"
+		],
+		"fabric-datagen": [
+			"net.breadcraftsvids.firstmod.FirstmodDataGenerator"
+		],
+		"client": [
+			"net.breadcraftsvids.firstmod.FirstModClient"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
