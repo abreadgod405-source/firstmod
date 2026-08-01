@@ -23,11 +23,11 @@ public class ModBlocks {
 
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new Block(AbstractBlock.Settings.create().requiresTool()
-                    .strength(1.5f, 3f).sounds(BlockSoundGroup.STONE)));
+                    .strength(3f, 3f).sounds(BlockSoundGroup.STONE)));
 
     public static final Block DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
             new Block(AbstractBlock.Settings.create().requiresTool()
-                    .strength(3f, 3f).sounds(BlockSoundGroup.DEEPSLATE)));
+                    .strength(4.5f, 3f).sounds(BlockSoundGroup.DEEPSLATE)));
 
 
 

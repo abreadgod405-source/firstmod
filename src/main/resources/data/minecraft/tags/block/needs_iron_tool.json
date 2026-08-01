@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "firstmod:sapphire_block",
+    "firstmod:cracked_sapphire_block",
+    "firstmod:sapphire_ore",
+    "firstmod:deepslate_sapphire_ore"
+  ]
+}
