@@ -1,4 +1,9 @@
 {
   "item.firstmod.sapphire": "Sapphire",
-  "item.firstmod.cracked_sapphire": "Cracked Sapphire"
+  "item.firstmod.cracked_sapphire": "Cracked Sapphire",
+
+  "block.firstmod.sapphire_block": "Block of Sapphire",
+  "block.firstmod.cracked_sapphire_block": "Block of Cracked Sapphire",
+  "block.firstmod.sapphire_ore": "Sapphire Ore",
+  "block.firstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
 }

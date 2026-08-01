@@ -8,7 +8,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-public class Moditems {
+public class ModItems {
     public static final Item SAPPHIRE = registerItem("sapphire", new Item(new Item.Settings()));
     public static final Item CRACKED_SAPPHIRE = registerItem("cracked_sapphire", new Item(new Item.Settings()));
 
