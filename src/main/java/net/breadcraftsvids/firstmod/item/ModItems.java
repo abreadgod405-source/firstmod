@@ -19,9 +19,5 @@ public class ModItems {
     public static void registerModItems() {
         FirstMod.LOGGER.info("Registering mod items for " + FirstMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(SAPPHIRE);
-            fabricItemGroupEntries.add(CRACKED_SAPPHIRE);
-        });
     }
 }

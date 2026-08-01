@@ -44,12 +44,6 @@ public class ModBlocks {
     public static void registerModBlocks() {
         FirstMod.LOGGER.info("Register Mod Blocks for" + FirstMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(ModBlocks.SAPPHIRE_BLOCK);
-            fabricItemGroupEntries.add(ModBlocks.CRACKED_SAPPHIRE_BLOCK);
-            fabricItemGroupEntries.add(ModBlocks.SAPPHIRE_ORE);
-            fabricItemGroupEntries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
-        });
     }
 
 }

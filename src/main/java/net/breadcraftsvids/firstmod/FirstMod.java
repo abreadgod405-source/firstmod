@@ -1,6 +1,7 @@
 package net.breadcraftsvids.firstmod;
 
 import net.breadcraftsvids.firstmod.block.ModBlocks;
+import net.breadcraftsvids.firstmod.item.ModItemGroups;
 import net.breadcraftsvids.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
