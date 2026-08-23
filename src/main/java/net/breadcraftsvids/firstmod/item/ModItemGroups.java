@@ -21,7 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.CRACKED_SAPPHIRE);
 
                         // Special Items
-
+                        entries.add(ModItems.SAPPHIRE_CLOTH);
                         // Tools
 
                         // Armour
@@ -43,7 +43,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
 
                         // Special Blocks
-
+                        entries.add(ModBlocks.STOVE);
                     }).build());
 
 

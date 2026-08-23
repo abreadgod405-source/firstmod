@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "CMC",
+    "CCC"
+  ],
+  "key": {
+    "S": {
+      "item": "firstmod:sapphire"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    },
+    "M": {
+      "item": "minecraft:smoker"
+    }
+  },
+  "result": {
+    "id": "firstmod:stove",
+    "count": 1
+  }
+}

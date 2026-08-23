@@ -1,6 +1,7 @@
 package net.breadcraftsvids.firstmod.block;
 
 import net.breadcraftsvids.firstmod.FirstMod;
+import net.breadcraftsvids.firstmod.block.custom.Stove;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
@@ -29,7 +30,8 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().requiresTool()
                     .strength(4.5f, 3f).sounds(BlockSoundGroup.DEEPSLATE)));
 
-
+    public static final Block STOVE = registerBlock("stove",
+            new Stove(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

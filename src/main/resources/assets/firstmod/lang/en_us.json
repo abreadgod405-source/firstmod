@@ -2,11 +2,15 @@
   "item.firstmod.sapphire": "Sapphire",
   "item.firstmod.cracked_sapphire": "Cracked Sapphire",
 
+  "item.firstmod.sapphire_cloth": "Sapphire Cloth",
+
   "block.firstmod.sapphire_block": "Block of Sapphire",
   "block.firstmod.cracked_sapphire_block": "Block of Cracked Sapphire",
 
   "block.firstmod.sapphire_ore": "Sapphire Ore",
   "block.firstmod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+
+  "block.firstmod.stove": "Stove",
 
   "itemgroup.firstmod.more_minerals_items": "More Minerals: Items",
   "itemgroup.firstmod.more_minerals_blocks": "More Minerals: Blocks"
