@@ -12,6 +12,12 @@
 
   "block.firstmod.stove": "Stove",
 
-  "itemgroup.firstmod.more_minerals_items": "More Minerals: Items",
-  "itemgroup.firstmod.more_minerals_blocks": "More Minerals: Blocks"
+  "item.firstmod.burger_bun": "Burger Bun",
+
+  "item.firstmod.beef_burger": "Beef Burger",
+
+  "item.firstmod.lava_star": "Lava Star",
+
+  "itemgroup.firstmod.firstmod_items": "My First Mod: Items",
+  "itemgroup.firstmod.firstmod_blocks": "My First Mod: Blocks"
 }

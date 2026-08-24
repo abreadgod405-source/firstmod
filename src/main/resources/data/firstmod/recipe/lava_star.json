@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "LBL",
+    " L "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_rod"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "id": "firstmod:lava_star",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " C ",
+    " B "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cooked_beef"
+    },
+    "B": {
+      "item": "firstmod:burger_bun"
+    }
+  },
+  "result": {
+    "id": "firstmod:beef_burger",
+    "count": 1
+  }
+}

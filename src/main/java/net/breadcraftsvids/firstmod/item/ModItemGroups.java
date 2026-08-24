@@ -11,27 +11,30 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup MORE_MINERALS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(FirstMod.MOD_ID, "more_minerals_items"),
+    public static final ItemGroup FIRSTMOD_ITEM_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(FirstMod.MOD_ID, "firstmod_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE))
-                    .displayName(Text.translatable("itemgroup.firstmod.more_minerals_items"))
+                    .displayName(Text.translatable("itemgroup.firstmod.firstmod_items"))
                     .entries((displayContext, entries) -> {
                         // Items
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModItems.CRACKED_SAPPHIRE);
 
+                        entries.add(ModItems.BURGER_BUN);
                         // Special Items
                         entries.add(ModItems.SAPPHIRE_CLOTH);
                         // Tools
 
                         // Armour
 
+                        // Food
+                        entries.add(ModItems.BEEF_BURGER);
                     }).build());
 
-    public static final ItemGroup MORE_MINERALS_BLOCKS = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(FirstMod.MOD_ID, "more_minerals_blocks"),
+    public static final ItemGroup FIRSTMOD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(FirstMod.MOD_ID, "firstmod_blocks"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.SAPPHIRE_BLOCK))
-                    .displayName(Text.translatable("itemgroup.firstmod.more_minerals_blocks"))
+                    .displayName(Text.translatable("itemgroup.firstmod.firstmod_blocks"))
                     .entries((displayContext, entries) -> {
 
                         // Blocks

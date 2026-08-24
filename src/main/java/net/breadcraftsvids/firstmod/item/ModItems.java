@@ -15,6 +15,13 @@ public class ModItems {
 
     public static final Item SAPPHIRE_CLOTH = registerItem("sapphire_cloth", new ClothItem(new Item.Settings().maxDamage(32)));
 
+    public static final Item BURGER_BUN = registerItem("burger_bun", new Item(new Item.Settings()));
+
+    public static final Item BEEF_BURGER = registerItem("beef_burger",
+            new Item(new Item.Settings().food(ModFoodComponents.BEEF_BURGER)));
+
+    public static final Item LAVA_STAR = registerItem("lava_star", new Item(new Item.Settings()));
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(FirstMod.MOD_ID, name), item);
     }

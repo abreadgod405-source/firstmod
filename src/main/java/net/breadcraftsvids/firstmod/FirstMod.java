@@ -5,6 +5,7 @@ import net.breadcraftsvids.firstmod.item.ModItemGroups;
 import net.breadcraftsvids.firstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 // VERY important comment
@@ -18,5 +19,7 @@ public class FirstMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.LAVA_STAR, 324800);
 	}
 }
