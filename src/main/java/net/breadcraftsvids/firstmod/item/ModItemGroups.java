@@ -20,15 +20,16 @@ public class ModItemGroups {
                         entries.add(ModItems.SAPPHIRE);
                         entries.add(ModItems.CRACKED_SAPPHIRE);
 
+                        entries.add(ModItems.BEEF_BURGER);
                         entries.add(ModItems.BURGER_BUN);
+
+                        entries.add(ModItems.LAVA_STAR);
                         // Special Items
                         entries.add(ModItems.SAPPHIRE_CLOTH);
                         // Tools
 
                         // Armour
 
-                        // Food
-                        entries.add(ModItems.BEEF_BURGER);
                     }).build());
 
     public static final ItemGroup FIRSTMOD_BLOCKS_GROUP = Registry.register(Registries.ITEM_GROUP,
